@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Evospike.Microservices</PackageId>
+    <Authors>Enmanuel López</Authors>
+    <Copyright>Evospike.com</Copyright>
+    <NeutralLanguage>es-DO</NeutralLanguage>
+    <Owners>Enmanuel López</Owners>
+    <Title>Evospike.Microservices</Title>
+    <Description>Herramientas comunes para microservicios</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageTags>.net core, mongoDB, MassTransit</PackageTags>
+    <PackageProjectUrl>https://github.com/enmanuellopez02/Evospike.Microservices.git</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="MassTransit\" />
+    <Folder Include="Settings\" />
+    <Folder Include="MongoDB\" />
+    <Folder Include="Identity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.12.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.1.7" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.6" />
+  </ItemGroup>
+</Project>
