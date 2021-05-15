@@ -2,16 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <PackageId>Evospike.Microservices</PackageId>
+    <PackageId>Evospike.MicroservicesCommon</PackageId>
     <Authors>Enmanuel López</Authors>
     <Copyright>Evospike.com</Copyright>
     <NeutralLanguage>es-DO</NeutralLanguage>
     <Owners>Enmanuel López</Owners>
-    <Title>Evospike.Microservices</Title>
+    <Title>Evospike.MicroservicesCommon</Title>
     <Description>Herramientas comunes para microservicios</Description>
     <PackOnBuild>true</PackOnBuild>
     <PackageTags>.net core, mongoDB, MassTransit</PackageTags>
-    <PackageProjectUrl>https://github.com/enmanuellopez02/Evospike.Microservices.git</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/enmanuellopez02/MicroservicesCommon.git</PackageProjectUrl>
+    <PackageVersion>1.0.0</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
