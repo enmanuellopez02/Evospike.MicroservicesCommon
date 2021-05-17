@@ -1,6 +1,12 @@
 ﻿# MicroservicesCommon
 This repository contains the code to build microservices with common codes in the shortest possible time.
 
+Allows you to configure MongoDB and a generic repository to manage the database in MontoDB
+
+Allows you to configure MassTransit to manage RabbitMQ, which is the event mailbox to communicate microservices asynchronously
+
+Allows you to add an authentication layer using JwtBearer to manage access and identification tokens
+
 [![Build Status](https://dev.azure.com/enmanuellopez02/MicroservicesCommon/_apis/build/status/MicroservicesCommon-ASP.NET%20Core-CI?branchName=main)](https://dev.azure.com/enmanuellopez02/MicroservicesCommon/_build/latest?definitionId=9&branchName=main)
 
 ### `appsettings.json` configuration
