@@ -4,15 +4,15 @@
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>Evospike.MicroservicesCommon</PackageId>
     <Authors>Enmanuel López</Authors>
-    <Copyright>Evospike.com</Copyright>
-    <NeutralLanguage>es-DO</NeutralLanguage>
+    <Copyright>evospike.com</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
     <Owners>Enmanuel López</Owners>
     <Title>Evospike.MicroservicesCommon</Title>
-    <Description>Herramientas comunes para microservicios</Description>
+    <Description>Common tools for microservices</Description>
     <PackOnBuild>true</PackOnBuild>
-    <PackageTags>.net core, mongoDB, MassTransit</PackageTags>
-    <PackageProjectUrl>https://github.com/enmanuellopez02/MicroservicesCommon.git</PackageProjectUrl>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageTags>.net core, mongoDB, MassTransit, Identity microservice</PackageTags>
+    <PackageProjectUrl>https://github.com/enmanuellopez02/Evospike.MicroservicesCommon.git</PackageProjectUrl>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
